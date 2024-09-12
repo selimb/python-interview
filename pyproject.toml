@@ -1,0 +1,25 @@
+[tool.ruff]
+src = ["capit"]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "B", # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "E", # pycodestyle
+    "F", # pyflakes
+    "W", # pycodestyle
+    "RUF", # ruff
+    "I", # isort
+    "PT", # flake8-pytest-style
+    "FIX003", # line-contains-xxx
+]
+
+[tool.ruff.lint.isort]
+order-by-type = false
+force-sort-within-sections = true
+known-first-party = ["capit"]
+
+[tool.pytest.ini_options]
+# addopts = "-rA"
+log_level = "DEBUG"

@@ -1,0 +1,13 @@
+# Work directory
+wrk
+
+# Python venv
+.venv
+venv
+
+# Python bytecode
+__pycache__
+
+# caches
+.mypy_cache
+.pytest_cache
