@@ -14,7 +14,6 @@ DATA_DIR = PROJECT_DIR / "data"
 VIDEO_BAD = DATA_DIR / "bad.mp4"
 VIDEO_EARTH = DATA_DIR / "earth.mp4"
 VIDEO_OCEAN = DATA_DIR / "ocean.mp4"
-# ATTENTION: This file is not tracked in Git.
 VIDEO_PECULIAR = DATA_DIR / "peculiar.mkv"
 
 
